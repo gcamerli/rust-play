@@ -1,0 +1,8 @@
+# Cargo
+*.lock
+
+# Build
+target
+
+# Backup 
+*.rs.bk
