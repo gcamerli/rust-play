@@ -42,7 +42,7 @@ There are 2 different ways to compile **rust** programs.
 
 **Rustc**
 
-Starting from a classic `hello.rs`:
+The 1st using the compiler `rustc`. So starting from a classic `hello.rs`:
 
 ```rust
 fn main() {
@@ -50,15 +50,17 @@ fn main() {
 }
 ```
 
-to compile:
+To compile our function:
 
 ```shell
 $ rustc hello.rs
 ```
 
-will create a binary called `hello`, that will print the string `Hello, World!`.
+This will create a binary called `hello`, that will print the string `Hello, World!`.
 
 **Cargo**
+
+The 2nd using the package manager `cargo`.
 
 ### **Playground**
 
