@@ -86,6 +86,7 @@ $ cargo check # To check if is error-proof
 $ cargo build # To compile our package and store the binary under target/debug
 $ cargo build --release # To compile our package and store the binary under target/release
 $ cargo run # To run our binary
+$ cargo update # To update the version of all the dependencies
 ```
 
 ### **Playground**
