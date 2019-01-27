@@ -1,8 +1,8 @@
-# **Rust playground**
+# **Rust play**
 
 ### **Description**
 
-Selection of **rust** programs from the official book [The Rust Programming Language](https://doc.rust-lang.org/book/index.html).
+Playground of **rust** programs from the official book [The Rust Programming Language](https://doc.rust-lang.org/book/index.html).
 
 ### **License**
 
