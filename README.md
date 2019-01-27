@@ -61,7 +61,33 @@ This will create a binary called `hello`, that will print the string `Hello, Wor
 
 **Cargo**
 
-The 2nd using the package manager `cargo`.
+The 2nd using the package manager `cargo`. So running:
+
+```shell
+$ cargo new hello_world
+```
+
+we can create our first **rust** package and have a structure like the following:
+
+```shell
+$ cd hello_world
+$ tree .
+.
+├── Cargo.toml
+└── src
+    └── main.rs
+
+1 directory, 2 files
+```
+
+To interact with this package there are several options:
+
+```shell
+$ cargo check # To check if is error-proof
+$ cargo build # To compile our package and store the binary under target/debug
+$ cargo build --release # To compile our package and store the binary under target/release
+$ cargo run # To run our binary
+```
 
 ### **Playground**
 
