@@ -14,14 +14,13 @@ Collection of **rust** programs from the official book [The Rust Programming Lan
 
 ### **Setup**
 
-To start to use **rust** on **UNIX-like** system it's enough to run using [rustup](https://rustup.rs/):
+To start to use **rust** on **UNIX-like** system it's enough to run:
 
 ```shell
 $ curl https://sh.rustup.rs -sSf | sh
 ```
 
-to install the latest stable version and add this line to your `rc` file
-to add **cargo** to your system `PATH`:
+[rustup](https://rustup.rs/) will install the latest stable version. Then to add **cargo** to your system `PATH`, include the following line to your `rc` file:
 
 ```shell
 export PATH="$HOME/.cargo/bin:$PATH"
