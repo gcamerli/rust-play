@@ -13,20 +13,33 @@ Collection of **rust** programs from the official book [The Rust Programming Lan
 
 ### **Setup**
 
-To start to use rust on **UNIX-like** system it's enough to run using [rustup](https://rustup.rs/):
+To start to use **rust** on **UNIX-like** system it's enough to run using [rustup](https://rustup.rs/):
 
 ```shell
-curl https://sh.rustup.rs -sSf | sh
+$ curl https://sh.rustup.rs -sSf | sh
 ```
 
 to install the latest stable version and add this line to your `rc` file
-to add cargo to your system `PATH`:
+to add **cargo** to your system `PATH`:
 
 ```shell
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 ### **Usage**
+
+Firstly check if **rust** and **cargo** are properly set:
+
+```shell
+$ rustc -V
+$ cargo -V
+```
+
+If all is good the output will show the **version** of both binaries.
+
+**Rustc**
+
+**Cargo**
 
 ### **Playground**
 
