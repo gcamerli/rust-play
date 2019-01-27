@@ -31,8 +31,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 Firstly check if **rust** and **cargo** are properly set:
 
 ```shell
-$ rustc -V
-$ cargo -V
+$ rustc -V; cargo -V
 ```
 
 If all is good the output will show the **version** of both binaries.
