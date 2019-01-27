@@ -13,7 +13,7 @@ Collection of **rust** programs from the official book [The Rust Programming Lan
 
 ### **Setup**
 
-To start to use rust on **UNIX-like** system it's enough to run:
+To start to use rust on **UNIX-like** system it's enough to run using [rustup](https://rustup.rs/):
 
 ```shell
 curl https://sh.rustup.rs -sSf | sh
@@ -26,11 +26,14 @@ to add cargo to your system `PATH`:
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
+### **Usage**
+
 ### **Playground**
 
 ![cup](img/cup.jpg)
 
 + [hello_cargo](hello_cargo)
++ [guessing_game](guessing_game)
 
 _Hack without fear!_
 
