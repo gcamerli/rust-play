@@ -82,10 +82,10 @@ $ tree .
 To interact with this package there are several options:
 
 ```shell
-$ cargo check # To check if is error-proof
-$ cargo build # To compile our package and store the binary under target/debug
-$ cargo build --release # To compile our package and store the binary under target/release
-$ cargo run # To run our binary
+$ cargo check # To check if it is error-proof
+$ cargo build # To compile it and store the binary under target/debug
+$ cargo build --release # To compile it and store the binary under target/release
+$ cargo run # To run the binary
 $ cargo update # To update the version of all the dependencies
 ```
 
