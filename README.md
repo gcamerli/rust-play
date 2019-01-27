@@ -7,9 +7,10 @@ Collection of **rust** programs from the official book [The Rust Programming Lan
 1. [Setup](#setup)
 2. [Usage](#usage)
 3. [Playground](#playground)
-4. [Resources](#resources)
-5. [Doc](#doc)
-6. [License](#license)
+4. [Docker](#docker)
+5. [Resources](#resources)
+6. [Doc](#doc)
+7. [License](#license)
 
 ### **Setup**
 
@@ -70,6 +71,12 @@ The 2nd using the package manager `cargo`.
 + [guessing_game](guessing_game)
 
 _Hack without fear!_
+
+### **Docker**
+
+The official docker images:
+
++ [rust](https://hub.docker.com/_/rust)
 
 ### **Resources**
 
