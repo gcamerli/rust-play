@@ -2,7 +2,7 @@
 
 ### **Description**
 
-Selection of **rust** programs from the official book [The Rust Programming Language](https://doc.rust-lang.org/book/index.html), written by Nicholas Matsakis and Aaron Turon.
+Selection of **rust** programs from the official book [The Rust Programming Language](https://doc.rust-lang.org/book/index.html).
 
 ### **License**
 
