@@ -36,7 +36,27 @@ $ rustc -V; cargo -V
 
 If all is good the output will show the **version** of both binaries.
 
+:crab:
+
+There are 2 different ways to compile **rust** programs.
+
 **Rustc**
+
+Starting from a classic `hello.rs`:
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+to compile:
+
+```shell
+$ rustc hello.rs
+```
+
+will create a binary called `hello`, that will print the string `Hello, World!`.
 
 **Cargo**
 
